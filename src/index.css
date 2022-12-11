@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.overallScreen {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.operators {
+  display:block;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.digits {
+  display:block;
+  width: 100%;
+  margin: 0;
+}
+
+.digits button {
+  margin: 0;
+  padding: 3.6rem;
+  font-size: 2rem;
+  background-color: antiquewhite;
+  font-family: 'Fragment Mono', monospace;
+}
+
+.operators button {
+  font-size: 3rem;
+  background-color: yellow;
+  border: 5rem black;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: 'Fragment Mono', monospace;
+
+}
